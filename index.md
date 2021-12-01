@@ -11,24 +11,25 @@ Don't be coerced into giving up your privacy - KEEP USING COINJOIN.
 ## Pathetic Exchanges
 
 All the exchanges in the table below have flagged coinjoin use and should be avoided. 
-Details are provided where known (e.g. whether flagging occured at deposit/withdrawal & which coinjoin tool was used).
-Sources provided where publicly availible.
-Exchanges without sources are verified privately.  
 
-| Exchange      | Pre (Deposit) | Post (Withdrawal) | Whirlpool | JoinMarket | Wasabi | Source(s) |
-| --------      | ------------- | ----------------- | --------- | ---------- | ------ | --------- |
-| Binance SGD   |               | x                 |           |            | x      | [1](https://twitter.com/bittlecat/status/1207621591820951552) |
-| Paxos         |               | x                 |           |            | x      | [1](https://twitter.com/McHodled/status/1222195787112673281) |
-| Bitstamp      |               |                   |           |            |        | |
-| Paxful        |               |                   |           |            |        | [1](https://web.archive.org/web/20200128234015/https://old.reddit.com/r/WasabiWallet/comments/czext2/paxful_account_was_frozen_due_to_coinjoin/) |
-| Bitfinex      |               |                   |           |            | x      | [1](https://web.archive.org/web/20200128233910/https://old.reddit.com/r/WasabiWallet/comments/beqj8r/bitfinex_lock_account/) |
-| BlockFi       |               |                   |           |            |        | [1](https://twitter.com/BlockFiZac/status/1234531935038341120)|
-| BitVavo       |               |                   |           |            |        | [1](https://web.archive.org/web/20200907203529if_/https://www.reddit.com/r/Bitcoin/comments/i8ye6x/exchange_account_closed_because_of_risk_profile/)|
-| BottlePay     |               |                   |           |            |        | |
-| InvestVoyager |               | x                 |           |            |        | [1](https://twitter.com/sundaywar/status/1366854774864322560) |
-| Nexo          |               |                   |           |            |        | |
-| Bitwala       |               | x                 |           |            |        | [1](https://twitter.com/RiccardoMasutti/status/1375507165151076353) |
-| Bitmex        |               | x                 |           | x          |        | [1](https://twitter.com/kristapsk/status/1374336620158140419)|
+Details are provided where known (e.g. whether flagging occured at deposit/withdrawal & which coinjoin tool was used).
+
+Sources provided where publicly availible. Exchanges without sources are verified privately.  
+
+| Exchange      | Details | Source(s) |
+| --------      | ------- | --------- |
+| Binance SGD   | Wasabi - Withdrawal | [1](https://twitter.com/bittlecat/status/1207621591820951552) |
+| Paxos         | Wasabi - Withdrawal | [1](https://twitter.com/McHodled/status/1222195787112673281) |
+| Bitstamp      | | |
+| Paxful        | | [1](https://web.archive.org/web/20200128234015/https://old.reddit.com/r/WasabiWallet/comments/czext2/paxful_account_was_frozen_due_to_coinjoin/) |
+| Bitfinex      | Wasabi | [1](https://web.archive.org/web/20200128233910/https://old.reddit.com/r/WasabiWallet/comments/beqj8r/bitfinex_lock_account/) |
+| BlockFi       | | [1](https://twitter.com/BlockFiZac/status/1234531935038341120)|
+| BitVavo       | | [1](https://web.archive.org/web/20200907203529if_/https://www.reddit.com/r/Bitcoin/comments/i8ye6x/exchange_account_closed_because_of_risk_profile/)|
+| BottlePay     | | |
+| InvestVoyager | Withdrawal | [1](https://twitter.com/sundaywar/status/1366854774864322560) |
+| Nexo          | | |
+| Bitwala       | Withdrawal | [1](https://twitter.com/RiccardoMasutti/status/1375507165151076353) |
+| Bitmex        | JoinMarket - Withdrawal | [1](https://twitter.com/kristapsk/status/1374336620158140419)|
 
 ## CoinJoin
 
