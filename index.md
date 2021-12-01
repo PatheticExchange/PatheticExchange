@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+# Pathetic Exchange Tracker
 
-You can use the [editor on GitHub](https://github.com/PatheticExchange/PatheticExchange/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+There is a huge effort underway to discourage bitcoiners from using bitcoin privately, specifically discourage use of CoinJoin software. 
 
-### Markdown
+This is a coordinated effort which involves many large exchanges, analytics companies and sell out bitcoiners.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Don't be coerced into giving up your privacy - KEEP USING COINJOIN.
 
-```markdown
-Syntax highlighted code block
+## Pathetic Exchanges
 
-# Header 1
-## Header 2
-### Header 3
+All the exchanges in the table below have flagged coinjoin use and should be avoided. 
+Details are provided where known (e.g. whether flagging occured at deposit/withdrawal & which coinjoin tool was used).
+Sources provided where publicly availible.
+Exchanges without sources are verified privately.  
 
-- Bulleted
-- List
+| Exchange      | Pre (Deposit) | Post (Withdrawal) | Whirlpool | JoinMarket | Wasabi | Source(s) |
+| --------      | ------------- | ----------------- | --------- | ---------- | ------ | --------- |
+| Binance SGD   |               | x                 |           |            | x      | [1](https://twitter.com/bittlecat/status/1207621591820951552) |
+| Paxos         |               | x                 |           |            | x      | [1](https://twitter.com/McHodled/status/1222195787112673281) |
+| Bitstamp      |               |                   |           |            |        | |
+| Paxful        |               |                   |           |            |        | [1](https://web.archive.org/web/20200128234015/https://old.reddit.com/r/WasabiWallet/comments/czext2/paxful_account_was_frozen_due_to_coinjoin/) |
+| Bitfinex      |               |                   |           |            | x      | [1](https://web.archive.org/web/20200128233910/https://old.reddit.com/r/WasabiWallet/comments/beqj8r/bitfinex_lock_account/) |
+| BlockFi       |               |                   |           |            |        | [1](https://twitter.com/BlockFiZac/status/1234531935038341120)|
+| BitVavo       |               |                   |           |            |        | [1](https://web.archive.org/web/20200907203529if_/https://www.reddit.com/r/Bitcoin/comments/i8ye6x/exchange_account_closed_because_of_risk_profile/)|
+| BottlePay     |               |                   |           |            |        | |
+| InvestVoyager |               | x                 |           |            |        | [1](https://twitter.com/sundaywar/status/1366854774864322560) |
+| Nexo          |               |                   |           |            |        | |
+| Bitwala       |               | x                 |           |            |        | [1](https://twitter.com/RiccardoMasutti/status/1375507165151076353) |
+| Bitmex        |               | x                 |           | x          |        | [1](https://twitter.com/kristapsk/status/1374336620158140419)|
 
-1. Numbered
-2. List
+## CoinJoin
 
-**Bold** and _Italic_ and `Code` text
+Bitcoin transactions are public.
+Used naïvely this makes bitcoin transactions very easy to follow, meaning that bitcoin is not private by default.
+Used carefully (with the correct tools) bitcoin can be used quite privately.
+One key tool used by those looking to use bitcoin more privately is CoinJoin.
+The best coinjoin tool currently availible is whirlpool which is availible in [Sparrow](https://www.sparrowwallet.com/) or on [Samourai Wallet](https://samouraiwallet.com/) connected to your own node.
 
-[Link](url) and ![Image](src)
-```
+## Options for Users
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Regardless of which of the below options you choose you should never leave a balance on an exchange.
 
-### Jekyll Themes
+Option 1. CoinJoin & Avoid Pathetic Exchanges
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PatheticExchange/PatheticExchange/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Exchanges which require KYC documentation are security holes and have been hacked time and time again.
+Buy with [non KYC](https://bitcoiner.guide/nokyconly/) e.g. [bisq](https://bisq.network/) or [earn](https://bitcoinerjobs.co/) bitcoin directly. 
 
-### Support or Contact
+Option 2. CoinJoin & Continue using Exchanges
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This is an option which many will take due to the convenience of KYC exchanges (particularly those who have been 'verified').
+Users attempting this risk having their accounts locked for breaking (potentially unwritten) rules..
+
+Typically users doing this attempt to put distance between the exchange and their mixed coins by sending through multiple intermediate addresses, this can be done easily with [rocochet](https://www.samouraiwallet.com/ricochet).
+
+Option 3. Stop CoinJoining
+
+This is the worst option.
+It's not normal for companies to undergo pervasive and indefinite surveillance on paying customers. **Push back.**
+
+## Pay With CoinJoin
+
+Regardless of your decision above, consider paying with mixed coins when spending your bitcoin.
+If people pay with mixed coins for normal 'legitimate' goods and services the heuristic that mixed coins are suspicious is broken.
+Even better, the merchant you shop at has coins 1 step removed from a CoinJoin tx, analytics companies / exchanges won't be able to ban these users who have no way to selectively accept payments.
