@@ -31,6 +31,8 @@ Sources provided where publicly availible. Exchanges without sources are verifie
 | Bitwala       | Withdrawal | [1](https://twitter.com/RiccardoMasutti/status/1375507165151076353) |
 | Bitmex        | JoinMarket - Withdrawal | [1](https://twitter.com/kristapsk/status/1374336620158140419)|
 
+If something is wrong / missing [raise an issue on github](https://github.com/PatheticExchange/PatheticExchange/issues/new)
+
 ## CoinJoin
 
 Bitcoin transactions are public.
