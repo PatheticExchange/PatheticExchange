@@ -2,7 +2,7 @@
 
 ## Introduction
 
-There is a huge effort underway to discourage bitcoiners from using bitcoin privately, specifically discourage use of CoinJoin software. 
+There is a huge effort underway to discourage bitcoiners from using bitcoin privately, specifically discouraging the use of CoinJoin software. 
 
 This is a coordinated effort which involves many large exchanges, analytics companies and sell out bitcoiners.
 
@@ -53,12 +53,13 @@ Option 2. CoinJoin & Continue using Exchanges
 This is an option which many will take due to the convenience of KYC exchanges (particularly those who have been 'verified').
 Users attempting this risk having their accounts locked for breaking (potentially unwritten) rules..
 
-Typically users doing this attempt to put distance between the exchange and their mixed coins by sending through multiple intermediate addresses, this can be done easily with [rocochet](https://www.samouraiwallet.com/ricochet).
+Typically users doing this attempt to put distance between the exchange and their mixed coins by sending through multiple intermediate addresses, this can be done easily with [ricochet](https://www.samouraiwallet.com/ricochet).
 
 Option 3. Stop CoinJoining
 
 This is the worst option.
-It's not normal for companies to undergo pervasive and indefinite surveillance on paying customers. **Push back.**
+It's not normal for companies to undergo pervasive and indefinite surveillance on paying customers. 
+If you comply you are complicit. **Push back.**
 
 ## Pay With CoinJoin
 
